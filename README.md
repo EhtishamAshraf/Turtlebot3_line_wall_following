@@ -3,11 +3,11 @@ This repository features a custom ROS package, follower_robot_pkg, designed to e
 
 ### Demo Video
 You can watch the demo video by clicking on the below image
-[![Watch the video](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/Images/2.png)](https://www.youtube.com/watch?v=d6_b9ii4WU4&t=2s)
+[![Watch the video](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/src/follower_robot_pkg/Images/2.png)](https://www.youtube.com/watch?v=d6_b9ii4WU4&t=2s)
 
 ## Gazebo World
 Below image shows the Gazebo world used in this project. The world contains walls (blue), with a yellow color obstacle (door), and green line.
-![Gazebo World](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/Images/1.png)
+![Gazebo World](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/src/follower_robot_pkg/Images/1.png)
 
 ### Note 
 1.  Details about cloning the repository are given at the end of this **readme file**
@@ -22,10 +22,10 @@ Below image shows the Gazebo world used in this project. The world contains wall
 - If the left wall ends (indicated by an infinite distance value), the robot will move forward slightly to re-align itself with the line for 
   following. 
 - In all other cases, the robot continues to move forward.
-![Wall Following](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/Images/3.png)
+![Wall Following](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/src/follower_robot_pkg/Images/3.png)
 
 If the door stops while the robot is following the walls, the robot stops and waits for the door to open.
-![Door Closed](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/Images/4.png)
+![Door Closed](https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following/blob/main/src/follower_robot_pkg/Images/4.png)
 
 ## Line Following Logic
 - Convert the RGB image to HSV format and define the HSV range to detect the green color line in the image. 
