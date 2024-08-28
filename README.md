@@ -61,6 +61,9 @@ sudo apt-get install git
 ```bash
 git clone https://github.com/EhtishamAshraf/Turtlebot3_line_wall_following.git
 ```
+```bash
+cd Turtlebot3_line_wall_following
+```
 Run the below commands in root folder of the workspace
 ```bash
 catkin_make 
