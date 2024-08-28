@@ -71,7 +71,7 @@ catkin_make
 ```bash
 source devel/setup.bash 
 ```
-Navigate to the Scripts folder inside the package and make the python files executable
+Navigate to the Scripts folder inside the package and make the Python files executable by running the following commands:
 ```bash
 chmod +x wall_line_following.py
 chmod +x world_control.py
