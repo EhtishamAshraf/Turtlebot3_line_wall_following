@@ -43,7 +43,7 @@ To run the simulation, launch the wall_line_following launch file, In order to l
 roslaunch wall_line_following.launch
 ```
 
-# Create Ros Workspace
+## Create Ros Workspace
 Open shell and execute the following commands:
 ```bash
 mkdir wall_line_following_ws
