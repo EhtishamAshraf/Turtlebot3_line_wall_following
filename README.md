@@ -71,6 +71,12 @@ catkin_make
 ```bash
 source devel/setup.bash 
 ```
+Navigate to the Scripts folder inside the package and make the python files executable
+```bash
+chmod +x wall_line_following.py
+chmod +x world_control.py
+```
+
 Press Enter and navigate to the launch folder inside the package
 ```bash
 roslaunch wall_line_following.launch
